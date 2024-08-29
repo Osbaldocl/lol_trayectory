@@ -1,0 +1,219 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #FF4655;
+    text-decoration: none;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4655;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FF2333;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Logros Section */
+#logros {
+    padding: 50px 20px;
+    background-color: #252525;
+    text-align: center;
+}
+
+.logros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logro {
+    background-color: #333;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.logro img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilo del modal (imagen ampliada) */
+/* Estilo del modal (imagen ampliada) */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Asegura que la imagen no cree barras de desplazamiento */
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Escalar la imagen para que se ajuste al contenedor */
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#caption {
+    display: none; /* Ocultar el caption en este caso */
+}
+
+
+/* Estadísticas Section */
+#estadisticas {
+    padding: 50px 20px;
+    background-color: #1C1C1C;
+    text-align: center;
+}
+
+/* Video/Stream Section */
+#videos {
+    padding: 50px 20px;
+    background-color: #252525;
+    text-align: center;
+}
+
+.video-container video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Testimonios Section */
+#testimonios {
+    padding: 50px 20px;
+    background-color: #1C1C1C;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 600px;
+    color: #FF4655;
+}
+
+/* Contacto Section */
+#contacto {
+    padding: 50px 20px;
+    background-color: #252525;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #FF4655;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #FF2333;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #1C1C1C;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}

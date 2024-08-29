@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Carrera en League of Legends</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Mi Trayectoria en League of Legends</h1>
+            <p>Descubre mi camino desde un novato hasta un campeón.</p>
+            <a href="#logros" class="btn-primary">Ver Mis Logros</a>
+        </div>
+    </section>
+
+    <!-- Logros Section -->
+    <section id="logros">
+        <h2>Logros Destacados</h2>
+        <div class="logros-container">
+            <!-- Ejemplo de Tarjeta de Logro -->
+            <div class="logro">
+                <img src="images/logro1.png" alt="Logro 1" class="clickable-image">
+                <h3>Rango Diamante</h3>
+                <p>Alcancé el rango Diamante en la temporada 2023.</p>
+            </div>
+            <!-- Añade más tarjetas de logros aquí -->
+        </div>
+    </section>
+
+    <!-- Modal para mostrar la imagen en grande -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Estadísticas Section -->
+    <section id="estadisticas">
+        <h2>Mis Estadísticas</h2>
+        <div class="estadisticas-container">
+            <!-- Aquí irán tus gráficas o infografías -->
+            <img src="images/estadisticas.png" alt="Estadísticas">
+        </div>
+    </section>
+
+    <!-- Video/Stream Section -->
+    <section id="videos">
+        <h2>Mis Jugadas Destacadas</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="videos/jugada1.mp4" type="video/mp4">
+                Tu navegador no soporta video HTML5.
+            </video>
+            <!-- Añade más videos o enlaces a tu canal de Twitch/YouTube -->
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios">
+        <h2>Lo Que Dicen de Mí</h2>
+        <div class="testimonios-container">
+            <blockquote>
+                <p>"Un compañero de equipo excepcional, siempre concentrado y decidido."</p>
+                <cite>- Compañero de Equipo</cite>
+            </blockquote>
+            <!-- Añade más testimonios aquí -->
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto">
+        <h2>Contáctame</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+            <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mi Carrera en League of Legends. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <!-- Enlaces a tus redes sociales -->
+            <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="images/youtube-icon.png" alt="YouTube"></a>
+            <!-- Añade más iconos de redes sociales si es necesario -->
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
